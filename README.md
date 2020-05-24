@@ -23,7 +23,7 @@ Here are the steps in the workflow:
 8. Finally, the build status will be visible in the Differential review page.
 
 
-	# How To Run
+# How To Run
 1. Setup Buildbot with http://docs.buildbot.net/current/tutorial/tour.html
 2. Install Docker in the buildbot instance: https://docs.docker.com/engine/install/
 3. Setup Phabricator with https://secure.phabricator.com/book/phabricator/article/installation_guide/
