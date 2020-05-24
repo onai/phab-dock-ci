@@ -13,7 +13,7 @@ This project provides scripts that enable one to leverage Buildbot CI (Continuou
 # Workflow
 Here are the steps in the workflow:
 
-1. Programmer submits code for review by committing changes and running an “arc diff” (Differential)
+1. Programmer submits code for review by committing changes and running an `arc diff` (Differential)
 2. Code review triggers Herald rules which triggers a Harbormaster build plan
 3. Harbormaster build plan makes HTTP requests to remote builders and can wait for status report from the builders. Status will be reported back to Herald.
 4. If a repository has a staging area, Differential (code review) will create a new tag for the review and that tag will be pushed to the staging repository.
