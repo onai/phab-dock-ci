@@ -18,7 +18,7 @@ Here are the steps in the workflow:
 3. Harbormaster build plan makes HTTP requests to remote builders and can wait for status report from the builders. Status will be reported back to Herald.
 4. If a repository has a staging area, Differential (code review) will create a new tag for the review and that tag will be pushed to the staging repository.
 5. A push to the staging repository triggers the `change_hook`.
-6. Buildbot's change_hook will use the tag to checkout and build the repository.
+6. Buildbot's `change_hook` will use the tag to checkout and build the repository.
 7. Build report is sent to Harbormaster and then to Herald.
 8. Finally, the build status will be visible in the Differential review page.
 
